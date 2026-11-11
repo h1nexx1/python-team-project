@@ -30,7 +30,7 @@ def print_stats(streamer):
     print("Средний донат:", streamer.average_donate())
 
 
-streamer = Streamer("My_Local_Change", 777)
+streamer = Streamer("Friend_Change", 999)
 streamer.add_donate(500)
 streamer.add_donate(150)
 print_stats(streamer)
